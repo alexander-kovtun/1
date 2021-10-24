@@ -105,3 +105,22 @@ docker port static-site
 cd flask_app
 $ pip install -r requirements.txt
 pip install -r requirements.txt
+docker run prakhar1989/static-site
+cd https://github.com/prakhar1989/docker-curriculum/tree/master/flask-app
+cd prakhar1989/docker-curriculum
+git clone git https://github.com/prakhar1989/docker-curriculum/tree/master/flask-app
+apt-get install git
+git init
+git add .
+git commit -m "Коты" -a
+git remote add origin https://github.com/alexander-kovtun/project1.git
+git push origin master
+git clone https://github.com/prakhar1989/docker-curriculum/tree/master/flask-app
+cd flask-app
+git push origin master
+git push -u origin main
+git remote add origin https://github.com/alexander-kovt/project2.git
+cd flask-app
+git clone https://github.com/prakhar1989/docker-curriculum/tree/master/flask-app
+git clone https://github.com/prakhar1989/docker-curriculum/tree/master/
+git clone github.com/prakhar1989/docker-curriculum/tree/master/
